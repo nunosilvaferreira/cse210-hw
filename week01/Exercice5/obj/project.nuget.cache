@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RjmIc+n5DXg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\psico\\OneDrive\\Desktop\\Homework\\cse210-hw\\week01\\Exercice5\\Exercise5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\psico\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\psico\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\psico\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\psico\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

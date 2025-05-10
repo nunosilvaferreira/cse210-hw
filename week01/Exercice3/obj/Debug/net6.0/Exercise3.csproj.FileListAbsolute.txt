@@ -1,0 +1,15 @@
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\bin\Debug\net6.0\Exercise3.exe
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\bin\Debug\net6.0\Exercise3.deps.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\bin\Debug\net6.0\Exercise3.runtimeconfig.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\bin\Debug\net6.0\Exercise3.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\bin\Debug\net6.0\Exercise3.pdb
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.AssemblyInfoInputs.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.AssemblyInfo.cs
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.sourcelink.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\refint\Exercise3.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.pdb
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\Exercise3.genruntimeconfig.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week01\Exercice3\obj\Debug\net6.0\ref\Exercise3.dll
