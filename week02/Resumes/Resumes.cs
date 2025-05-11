@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 
-// A code template for the category of things known as Resume. The
-// responsibility of a Resume is to hold and display personal employment information.
+// This class represents a Resume, which contains personal employment information.
+// It includes the name of the individual and a list of jobs they have held.
 public class Resume
 {
     // The C# convention is to start member variables with an underscore _
