@@ -1,0 +1,15 @@
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\bin\Debug\net6.0\Resumes.exe
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\bin\Debug\net6.0\Resumes.deps.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\bin\Debug\net6.0\Resumes.runtimeconfig.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\bin\Debug\net6.0\Resumes.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\bin\Debug\net6.0\Resumes.pdb
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.AssemblyInfoInputs.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.AssemblyInfo.cs
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.csproj.CoreCompileInputs.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.sourcelink.json
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\refint\Resumes.dll
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.pdb
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\Resumes.genruntimeconfig.cache
+C:\Users\psico\OneDrive\Desktop\Homework\cse210-hw\week02\Resumes\obj\Debug\net6.0\ref\Resumes.dll
