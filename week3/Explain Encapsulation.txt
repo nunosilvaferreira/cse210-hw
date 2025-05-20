@@ -1,0 +1,41 @@
+Meaning of Encapsulation
+Encapsulation is a core principle of object-oriented programming (OOP) that combines data (fields) and methods (functions) into a single unit called a class. 
+It restricts direct access to internal data by making fields private and exposing controlled access through public methods (getters/setters). 
+This ensures data integrity and prevents unintended modifications.
+
+Benefit of Encapsulation
+A major advantage is data protection. 
+By hiding implementation details, encapsulation prevents external code from corrupting an object’s state. 
+It also improves maintainability, as changes to internal logic don’t affect other parts of the program.
+
+Application of Encapsulation
+A real-world example is a user authentication system, where sensitive data (e.g., passwords) is stored privately and accessed only through secure methods like Login() or ChangePassword().
+
+Code Example:
+
+"
+public class BankAccount
+{
+    private decimal _balance;  // Private field
+
+    public void Deposit(decimal amount)
+    {
+        if (amount > 0)
+            _balance += amount;
+    }
+
+    public decimal GetBalance() => _balance;  // Read-only access
+}
+
+// Usage:
+BankAccount account = new BankAccount();
+account.Deposit(100);
+Console.WriteLine(account.GetBalance());  // Output: 100
+"
+
+Explanation
+-The _balance field is private, so it cannot be accessed directly outside the class.
+-The Deposit() method enforces rules (e.g., positive amounts only).
+-GetBalance() provides controlled read access.
+
+Encapsulation ensures secure, modular, and maintainable code—critical for teamwork and large-scale applications.
