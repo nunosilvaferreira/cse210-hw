@@ -1,45 +1,41 @@
+// Program.cs
 using System;
 using System.Collections.Generic;
-
-/*
-Exceeding Requirements:
-1. Added a ScriptureLibrary class to manage multiple scriptures that can be randomly selected.
-2. Implemented a smarter word hiding algorithm that prioritizes unhidden words.
-3. Added the ability to show hidden words if the user types "show" (for when they need help).
-4. Added color coding to make hidden words stand out.
-5. Added error handling for file operations when loading scriptures.
-*/
 
 class Program
 {
     static void Main(string[] args)
     {
-        ScriptureLibrary library = new ScriptureLibrary();
-        library.LoadScripturesFromFile("scriptures.txt");
-        
-        Scripture scripture = library.GetRandomScripture();
-        
-        while (true)
+        // Load scripture (bonus feature: random scripture from list)
+        List<Scripture> scriptures = new List<Scripture>()
+        {
+            new Scripture(new Reference("Proverbs", 3, 5, 6),
+                "Trust in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths."),
+            new Scripture(new Reference("John", 3, 16),
+                "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.")
+        };
+
+        Random rand = new Random();
+        Scripture scripture = scriptures[rand.Next(scriptures.Count)];
+
+        while (!scripture.AllWordsHidden())
         {
             Console.Clear();
             Console.WriteLine(scripture.GetDisplayText());
-            Console.WriteLine("\nPress Enter to hide words, type 'show' to reveal words, or 'quit' to exit:");
-            
-            string input = Console.ReadLine().ToLower();
-            
-            if (input == "quit")
+            Console.WriteLine("\nPress Enter to continue or type 'quit' to exit:");
+            string input = Console.ReadLine();
+            if (input.ToLower() == "quit")
                 break;
-                
-            if (input == "show")
-            {
-                scripture.ShowAllWords();
-                continue;
-            }
-            
-            if (scripture.IsCompletelyHidden())
-                break;
-                
+
             scripture.HideRandomWords(3);
         }
+
+        Console.Clear();
+        Console.WriteLine(scripture.GetDisplayText());
+        Console.WriteLine("\nAll words hidden. Program ended.");
     }
+
+    // Creative Extension:
+    // - Chooses from multiple scriptures randomly.
+    // - Smart hiding avoids re-hiding already hidden words.
 }
