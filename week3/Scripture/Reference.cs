@@ -1,4 +1,3 @@
-// Reference.cs
 public class Reference
 {
     public string Book { get; private set; }
@@ -23,9 +22,6 @@ public class Reference
 
     public string GetDisplayText()
     {
-        if (EndVerse.HasValue)
-            return $"{Book} {Chapter}:{StartVerse}-{EndVerse}";
-        else
-            return $"{Book} {Chapter}:{StartVerse}";
+        return EndVerse.HasValue ? $"{Book} {Chapter}:{StartVerse}-{EndVerse}" : $"{Book} {Chapter}:{StartVerse}";
     }
 }

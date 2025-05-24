@@ -1,6 +1,3 @@
-README.txt
-===========
-
 Hello!
 
 Thank you for taking a moment to look at this scripture memorization project. This simple console application was created as part of the Week 3 assignment for the CSE 210 course at BYU-Idaho.
@@ -15,19 +12,19 @@ If at any point you want to stop, just type "quit" and press Enter.
 
 What Makes This Version Special?
 --------------------------------
-- It includes **multiple scriptures**, chosen randomly each time the app starts.
-- Words are hidden **intelligently** — only words that are still visible get hidden.
-- The design is **clean and easy to understand**, so you can focus on memorizing instead of figuring out how the program works.
+- It includes multiple scriptures, chosen randomly each time the app starts.
+- Words are hidden intelligently — only words that are still visible get hidden.
+- The design is clean and easy to understand, so you can focus on memorizing instead of figuring out how the program works.
 
 Behind the Scenes
 -----------------
 The program uses four main C# files:
-- `Program.cs`: The main controller of the app.
-- `Scripture.cs`: Manages the scripture text and word hiding.
-- `Reference.cs`: Handles scripture references like "John 3:16" or "Proverbs 3:5-6".
-- `Word.cs`: Represents each individual word, hidden or not.
+- Program.cs: The main controller of the app.
+- Scripture.cs: Manages the scripture text and word hiding.
+- Reference.cs: Handles scripture references like "John 3:16" or "Proverbs 3:5-6".
+- Word.cs: Represents each individual word, hidden or not.
 
-Everything follows the principles of **encapsulation**, with each class doing one job well.
+Everything follows the principles of encapsulation, with each class doing one job well.
 
 How to Run It
 -------------
@@ -35,10 +32,8 @@ How to Run It
 2. Navigate to the folder where these files are located.
 3. Run the following commands:
 
-```bash
 dotnet build
 dotnet run
-```
 
 Thank You
 ---------

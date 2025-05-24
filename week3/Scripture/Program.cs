@@ -1,4 +1,3 @@
-// Program.cs
 using System;
 using System.Collections.Generic;
 
@@ -6,7 +5,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Load scripture (bonus feature: random scripture from list)
         List<Scripture> scriptures = new List<Scripture>()
         {
             new Scripture(new Reference("Proverbs", 3, 5, 6),
@@ -34,8 +32,4 @@ class Program
         Console.WriteLine(scripture.GetDisplayText());
         Console.WriteLine("\nAll words hidden. Program ended.");
     }
-
-    // Creative Extension:
-    // - Chooses from multiple scriptures randomly.
-    // - Smart hiding avoids re-hiding already hidden words.
 }
