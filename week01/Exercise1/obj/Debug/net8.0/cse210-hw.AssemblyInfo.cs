@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cse210-hw")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+340d2bb9c39affad1c5aad933fa5231fc6b563dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050e3ec574be7fc3b62dc8d8f4054b6dfa2f9956")]
 [assembly: System.Reflection.AssemblyProductAttribute("cse210-hw")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cse210-hw")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
