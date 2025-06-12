@@ -1,0 +1,50 @@
+Polymorphism Explanation.txt
+
+Polymorphism is one of the four fundamental principles of object-oriented programming (along with encapsulation, inheritance, and abstraction). 
+The word comes from Greek roots meaning "many forms," and in programming it refers to the ability of objects to take on different forms or behaviors while sharing a common interface.
+
+At its core, polymorphism allows methods to do different things based on the actual object that's being worked with, even when those objects are accessed through a common parent class reference. 
+This means we can write more general code that works with base classes, while still getting the specific behavior of derived classes.
+
+One major benefit of polymorphism is that it makes code more flexible and maintainable. 
+When we need to add new types of objects to our program, we can often do so without having to modify existing code that works with the base class. 
+This follows the important "open-closed principle" - our code should be open for extension but closed for modification.
+
+A practical application of polymorphism can be seen in my Eternal Quest program where different types of goals (simple, eternal, and checklist) all inherit from a base Goal class. 
+The program treats them uniformly through the base class interface, but each type has its own specific behavior when recording events or calculating points.
+
+Here's a code example from my program that demonstrates polymorphism:
+
+// Base class method
+public abstract class Goal {
+    public abstract void RecordEvent();
+}
+
+// Derived class implementations
+public class SimpleGoal : Goal {
+    public override void RecordEvent() {
+        _isComplete = true;
+    }
+}
+
+public class EternalGoal : Goal {
+    public override void RecordEvent() {
+        _timesCompleted++;
+    }
+}
+
+public class ChecklistGoal : Goal {
+    public override void RecordEvent() {
+        _amountCompleted++;
+        if (_amountCompleted >= _target) {
+            _isComplete = true;
+        }
+    }
+}
+
+In this example, all goal types implement the RecordEvent() method differently, but the calling code doesn't need to know which specific type it's dealing with 
+- it can just call RecordEvent() on any Goal object and get the appropriate behavior. 
+This makes the code cleaner and more adaptable to future changes.
+
+Polymorphism is particularly valuable in large projects where requirements change frequently, as it helps create systems that are easier to extend and modify without breaking existing functionality. 
+It's a powerful tool for writing flexible, maintainable object-oriented code.
