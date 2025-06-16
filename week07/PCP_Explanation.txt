@@ -1,0 +1,46 @@
+Programming with Classes Principles Explanation
+
+1. Abstraction
+Definition: Abstraction is the process of hiding complex implementation details and showing only the essential features of an object.
+It simplifies complex systems by modeling classes appropriate to the problem domain.
+
+Use in Project: In my exercise tracking program, I created an abstract Activity base class that defined the common structure for all activities without implementing all methods. 
+The abstract GetDistance(), GetSpeed(), and GetPace() methods established what all activities should do without specifying how.
+
+Enabling Change: Abstraction makes the program more flexible because new activity types can be added by simply inheriting from Activity and implementing the required methods. 
+The rest of the program can work with any activity through the abstract interface without knowing the specific implementation details.
+
+2. Encapsulation
+Definition: Encapsulation is the bundling of data with the methods that operate on that data, and restricting direct access to some of an object's components. 
+It's achieved through access modifiers like private and protected.
+
+Use in Project: In my exercise classes, all member variables (like _distance in Running and _laps in Swimming) were declared private. 
+Access to these variables was controlled through public methods like GetDistance().
+
+Enabling Change: Encapsulation protects the internal state of objects and allows implementation details to change without affecting other parts of the program. 
+For example, if we needed to change how swimming distance is calculated, we could modify the Swimming class without impacting any code that uses GetDistance().
+
+3. Inheritance
+Definition: Inheritance allows a class to acquire properties and behaviors of another class. 
+It enables code reuse through parent-child class relationships where child classes inherit from parent classes.
+
+Use in Project: The Running, Cycling, and Swimming classes all inherited from the Activity base class. 
+They automatically gained the Date and Minutes properties and GetSummary() method while adding their own specific implementations of distance, speed, and pace calculations.
+
+Enabling Change: Inheritance makes the program more flexible because common functionality only needs to be maintained in one place (the base class). 
+Changes to shared features (like date formatting in GetSummary()) can be made in the base class and automatically propagate to all derived classes.
+
+4. Polymorphism
+Definition: Polymorphism allows objects of different classes to be treated as objects of a common superclass. 
+It enables one interface to be used for different underlying forms through method overriding and virtual methods.
+
+Use in Project: The Activity class defined virtual methods that were overridden in each derived class. 
+The program could call GetSummary() on any Activity object, and the appropriate version of GetDistance(), GetSpeed(), and GetPace() would be called based on the actual object type.
+
+Enabling Change: Polymorphism makes the program more flexible because new activity types can be added without changing the code that processes activities. 
+The main program can work with the Activity interface without knowing about specific activity types, making it easy to extend with new functionality.
+
+Conclusion:
+These four principles work together to create maintainable, flexible software. 
+Abstraction defines what objects should do, encapsulation protects how they do it, inheritance establishes relationships between objects, and polymorphism allows different objects to be used interchangeably. 
+In my exercise tracking program, these principles made it easy to add new activity types, modify calculations, and extend functionality without breaking existing code.
